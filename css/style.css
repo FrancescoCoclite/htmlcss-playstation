@@ -24,5 +24,13 @@
  max-width: 100%;
 }
 .card_accessori{
- max-width: 100%;  
+ min-width: 100%;  
+}
+.card_accessori img{
+    border-radius: 10px;
+}
+.jumbo-secondario{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+   min-height: 670px; 
+   background-position: center;
 }
