@@ -37,3 +37,20 @@
 .bg_colorato{
     background-color: #161C3B;
 }
+.card_foot{
+    width: 100px;
+}
+.card_language{
+    width: 100%;
+}
+.card_language img{
+    width:25px;
+}
+footer ul>li>a{
+    color: white;
+    text-decoration: none;
+}
+footer li{
+    list-style: none;
+    
+}
