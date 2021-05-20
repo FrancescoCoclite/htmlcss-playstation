@@ -1,3 +1,7 @@
+.logo{
+ width: 100px;
+ min-height: 30px;
+}
 .card{
     width: 18rem;
     background: none;
@@ -18,4 +22,7 @@
 }
 .card_playstation{
  max-width: 100%;
+}
+.card_accessori{
+ max-width: 100%;  
 }
