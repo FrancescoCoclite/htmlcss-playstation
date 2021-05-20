@@ -4,9 +4,18 @@
 }
 .jumbo{
    background-image: url(../img/jumbo-bg.png);
-   min-height: 650px; 
+   min-height: 670px; 
    background-position: center;
 }
 .card_giochi{
     min-width: 90px;
+}
+.card_giochi img{
+    border-radius: 25px;
+}
+.descrizione_prodotto{
+    max-height: 600px;
+}
+.card_playstation{
+ max-width: 100%;
 }
