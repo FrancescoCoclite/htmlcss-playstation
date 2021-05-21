@@ -29,7 +29,9 @@
 .animate img{
     transition: transform ease 0.6s;
 }
-
+.speciale{
+    font-size: 17px;
+}
 .animate:hover img{
     transform:translateY(-15px);
     transition: transform ease 0.6s;
@@ -75,6 +77,5 @@ footer ul>li>a{
     text-decoration: none;
 }
 footer li{
-    list-style: none;
-    
+    list-style: none; 
 }
