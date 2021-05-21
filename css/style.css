@@ -1,18 +1,38 @@
 .logo{
- width: 100px;
- min-height: 30px;
+    width: 100px;
+    min-height: 30px;
+}
+.my-dropdown{
+    position:static;
+}
+
+.my-megamenu[data-bs-popper]{
+    border:none;
+    border-radius:0rem;
+    width:100vw;
+    top:70px;
 }
 .card{
     width: 20rem;
     background: none;
 }
 .jumbo{
-   background-image: url(../img/jumbo-bg.png);
-   min-height: 670px; 
+   background-image: url(../img/jumbo-bg.png); 
    background-position: center;
+   background-size: cover;
+   padding-top: 480px;
+   margin-top: 100px;
 }
 .card_giochi{
     min-width: 90px;
+}
+.animate img{
+    transition: transform ease 0.6s;
+}
+
+.animate:hover img{
+    transform:translateY(-15px);
+    transition: transform ease 0.6s;
 }
 .card_giochi img{
     border-radius: 25px;
@@ -21,18 +41,22 @@
     max-height: 600px;
 }
 .card_playstation{
- max-width: 100%;
+     max-width: 100%;
 }
+
 .card_accessori{
- min-width: 100%;  
+    min-width: 100%;  
 }
 .card_accessori img{
     border-radius: 10px;
 }
+.box_img, .not_active{
+    opacity: 0.8;
+}
 .jumbo-secondario{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-   min-height: 670px; 
-   background-position: center;
+    min-height: 670px; 
+    background-position: center;
 }
 .bg_colorato{
     background-color: #161C3B;

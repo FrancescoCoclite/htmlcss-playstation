@@ -12,8 +12,7 @@
   </head>
   <body>
       <!-- inizio header -->
-    <header>
-         <div class="container-fluid">
+    <header class="fixed-top">
              <div class="row">
                  <div class="col-12 bg-dark w-100 d-flex justify-content-end"><img src="img/sony_logo.svg" class="logo" alt="">
                 </div>
@@ -32,16 +31,35 @@
                           <li class="nav-item">
                             <a class="nav-link" href="#">Hardware</a>
                           </li>
-                          <li class="nav-item dropdown">
+                          <li class="nav-item dropdown has-megamunu my-dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Servizi
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <li><a class="dropdown-item" href="#">Action</a></li>
-                              <li><a class="dropdown-item" href="#">Another action</a></li>
-                              <li><hr class="dropdown-divider"></li>
-                              <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
+                            <ul class="dropdown-menu megamenu my-megamenu" aria-labelledby="navbarDropdown">
+                              <div class="container-fluid">
+                                  <div class="row dropdown-item">
+                                      <div class="col-12">
+                                          <div class="row justify-content-center">
+                                              <div class="col-1">
+                                                  <img src="img/play-menu-ico.png" class="w-100" alt="X">
+                                              </div>
+                                              <div class="col-1">
+                                                  <img src="img/play-menu-ico.png" class="w-100" alt="X">
+                                              </div>
+                                              <div class="col-1">
+                                                  <img src="img/play-menu-ico.png" class="w-100" alt="X">
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <hr>
+                                      <div class="text-center">
+                                        <a href="">sublink</a>
+                                        <a class="ms-3" href="">sublink</a>
+                                        <a class="ms-3" href="">sublink</a>
+                                      </div>
+                                  </div>
+                                  </div>
+                          </ul>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Novità</a>
@@ -71,8 +89,7 @@
                   </nav>
                 </div>
              </div>
-
-         </div>
+ 
     </header>
      <!-- fine header -->
     
@@ -96,32 +113,32 @@
      <!-- fine jumbotron -->
 
      <!-- inizio anteprima giochi-->
-     <section>
+     <section class="mt-5">
          <div class="container-xl">
              <div class="row mt-5">
                 <div class="col-6 col-sm-4 col-lg-2 d-flex my-2">
-                    <div class="card_giochi">
-                        <img src="img/returnal-listing-thumb-01-ps5.jpg" class="card-img-top" alt="rechet">
+                    <div class="card_giochi animate">
+                      <img src="img/returnal-listing-thumb-01-ps5.jpg" class="card-img-top border border-primary border-3" alt="rechet">
                     </div>
                 </div><div class="col-6 col-sm-4 col-lg-2 d-flex my-2">
-                    <div class="card_giochi">
-                        <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" class="card-img-top" alt="rechet">
+                    <div class="card_giochi animate">
+                        <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" class="card-img-top border border-primary border-3" alt="rechet">
                     </div>
                 </div><div class="col-6 col-sm-4 col-lg-2 d-flex my-2">
-                    <div class="card_giochi">
-                        <img src="img/returnal-listing-thumb-01-ps5.jpg" class="card-img-top" alt="rechet">
+                    <div class="card_giochi animate">
+                        <img src="img/returnal-listing-thumb-01-ps5.jpg" class="card-img-top border border-primary border-3" alt="rechet">
                     </div>
                 </div><div class="col-6 col-sm-4 col-lg-2 d-flex my-2">
-                    <div class="card_giochi">
-                        <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" class="card-img-top" alt="rechet">
+                    <div class="card_giochi animate">
+                        <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" class="card-img-top border border-primary border-3" alt="rechet">
                     </div>
                 </div><div class="col-6 col-sm-4 col-lg-2 d-flex my-2">
-                    <div class="card_giochi">
-                        <img src="img/returnal-listing-thumb-01-ps5.jpg" class="card-img-top" alt="rechet">
+                    <div class="card_giochi animate">
+                        <img src="img/returnal-listing-thumb-01-ps5.jpg" class="card-img-top border border-primary border-3" alt="rechet">
                     </div>
                 </div><div class="col-6 col-sm-4 col-lg-2 d-flex my-2">
-                    <div class="card_giochi">
-                        <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" class="card-img-top" alt="rechet">
+                    <div class="card_giochi animate">
+                        <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" class="card-img-top border border-primary border-3" alt="rechet">
                     </div>
                 </div>
          </div>
@@ -151,14 +168,14 @@
 
         <div class="container-xl">
             <div class="row">
-                <div class="col-12 col-md-6 d-flex align-items-center">
+                <div class="col-12 col-md-5 d-flex align-items-center">
                     <div class="descrizione_prodotto ms-5">
                         <h2 class="fs-1">Console PLaystation 5</h2>
                         <p class="descriozine_text text-secondary fs-4">Sperimenta la nuova generazione di incredibili giochi Playstation</p>
                         <a href="#" class="btn btn-primary rounded-pill mt-2">Maggiori informazioni</a>
                       </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-7">
                     <div class="card_playstation">
                         <img class="w-100" src="img/playstation-5-thumb.png" alt="">
                     </div>
@@ -177,7 +194,7 @@
             <div class="row justify-content-md-around mt-2">
                 <div class="col-4 col-md-2">
                     <div class="card_accessori w-100">
-                        <img src="img/playstation-5-thumb.png" class="card-img-top w-100" alt="">
+                        <img src="img/playstation-5-thumb.png" class="card-img-top w-100 border-bottom border-primary" alt="">
                         <div class="card-body text-center">
                           <h5 class="card-title w-100 d-none d-md-flex">Playstation 5</h5>
                         </div>
@@ -185,7 +202,7 @@
                 </div>
                 <div class="col-4 col-md-2">
                     <div class="card_accessori w-100">
-                        <img src="img/joypad-thumb.png" class="card-img-top w-100" alt="">
+                        <img src="img/joypad-thumb.png" class="card-img-top w-100 box_img not_active" alt="">
                         <div class="card-body text-center">
                           <h5 class="card-title w-100 d-none d-md-flex">Controller wireless DualSense™</h5>
                         </div>
@@ -193,7 +210,7 @@
                 </div>
                 <div class="col-4 col-md-2">
                     <div class="card_accessori w-100">
-                        <img src="img/headset-thumb.png" class="card-img-top w-100" alt="">
+                        <img src="img/headset-thumb.png" class="card-img-top w-100 box_img not_active" alt="">
                         <div class="card-body text-center">
                           <h5 class="card-title w-100 d-none d-md-flex">Cuffie wireless con microfono PULSE 3D™</h5>
                         </div>
@@ -201,7 +218,7 @@
                 </div>
                 <div class="col-4 col-md-2">
                     <div class="card_accessori w-100">
-                        <img src="img/remote-thumb.png" class="card-img-top w-100" alt="">
+                        <img src="img/remote-thumb.png" class="card-img-top w-100 box_img not_active" alt="">
                         <div class="card-body text-center">
                           <h5 class="card-title w-100 d-none d-md-flex">Telecomando Media</h5>
                         </div>
@@ -209,7 +226,7 @@
                 </div>
                 <div class="col-4 col-md-2">
                     <div class="card_accessori w-100">
-                        <img src="img/camera-thumb.jpg" class="card-img-top w-100" alt="">
+                        <img src="img/camera-thumb.jpg" class="card-img-top w-100 box_img not_active" alt="">
                         <div class="card-body text-center">
                           <h5 class="card-title w-100 d-none d-md-flex">Telecamera HD</h5>
                         </div>
@@ -402,7 +419,7 @@
              </div>
         </div>
 
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-4 mt-4">
           <div class="card_ps4">
              <img src="img/double11-202010-tw-psvr.jpg" class="card-img-top" alt="...">
              <div class="card-body">
